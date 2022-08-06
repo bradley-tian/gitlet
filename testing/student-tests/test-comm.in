@@ -1,0 +1,14 @@
+# A simple test of removing a file.
+> init
+<<<
++ test-rm1.txt test-rm1.txt
+> add test-rm1.txt
+<<<
+> commit "added test 1"
+<<<
++ test-rm2.txt test-rm2.txt
+> add test-rm2.txt
+<<<
+> commit "added test 2"
+<<<
+E test-rm2.txt
